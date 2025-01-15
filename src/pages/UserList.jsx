@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUsers, deleteUser } from "../redux/features/users/usersApi";
+import { fetchUsers, deleteUser } from "../redux/services/users/usersApi";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import { getDoc, doc } from "firebase/firestore"; 
 import { db } from '../firebase'

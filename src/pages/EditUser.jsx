@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { updateUser, fetchUsers } from "../redux/features/users/usersApi";
+import { updateUser, fetchUsers } from "../redux/services/users/usersApi";
 import { useNavigate, useParams } from "react-router-dom";
 import CircularProgress from "@mui/material/CircularProgress"; 
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createUser } from "../redux/features/users/usersApi";
+import { createUser } from "../redux/services/users/usersApi";
 import { useNavigate } from "react-router-dom";
 import CircularProgress from "@mui/material/CircularProgress"; 
 
